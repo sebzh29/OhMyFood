@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+/* PAGE */
+
+/* OPERATION */
+
+.operation {
+    
+    &_cards {
+    flex-direction: column;
+    align-items: center;
+    
+        &_card {
+            width: 95%;
+            margin-bottom: 20px;
+            box-shadow: 1px 2px 20px rgba(167, 167, 167, 0.5);
+        }
+    }
+}
+
+/* OPERATION */ 
+
+/* RESTAURANTS */ 
+
+.restaurants_card_fig_img {
+    height: 250px;
+}
+
+/* RESTAURANTS */ 
+
+/* PAGE */ 
+
+
+/* PAGE MENU */ 
+
+/* HEADER */ 
+
+.header_icon {
+    font-size: 20px;
+}
+
+/* HEADER */ 
+
+/* MENU */
+
+.menu {
+    &_header {
+        justify-content: space-between;
+
+        &_title {
+            margin-left: 20px;
+        }
+    }
+
+    &_categories {
+        flex-wrap: wrap;
+    }
+    
+    &_cards {
+        width: 50%;
+    }
+
+    &_card {
+        margin: 10px 0px;
+    }
+}
+
+/* MENU */
+
+/* PAGE MENU */ 
+
+}
